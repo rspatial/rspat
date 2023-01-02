@@ -12,9 +12,9 @@ spat_data <- function(name) {
 	}
 	x <- readRDS(fn)
 	if (inherits(x, "PackedSpatVector")) {
-		x <- vect(x)
+		x <- terra::vect(x)
 	} else if (inherits(x, "PackedSpatRaster")) {
-		x <- rast(x)
+		x <- terra::rast(x)
 	}
 	x
 }

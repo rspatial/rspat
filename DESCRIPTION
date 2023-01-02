@@ -1,8 +1,8 @@
 Package: rspat
 Type: Package
 Title: rspatial.org data -- terra version
-Version: 1.0-0
-Date: 2020-12-30
+Version: 1.0-1
+Date: 2023-01-02
 Depends: R (>= 4.0.0), terra
 Authors@R: c(
 	person("Robert J.", "Hijmans", role = c("cre", "aut"),  email = "r.hijmans@gmail.com"),

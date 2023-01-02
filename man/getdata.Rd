@@ -1,10 +1,8 @@
-\name{sp_data}
-
-\Rdversion{1.1}
+\name{spat_data}
 
  
-\alias{sp_data}
-\alias{sp_download}
+\alias{spat_data}
+\alias{spat_download}
 
 
 \title{
@@ -16,8 +14,8 @@ Get and example data set
 }
 
 \usage{
-sp_data(name)
-sp_download(files, path="data", url="https://biogeo.ucdavis.edu/data/rspatial/")
+spat_data(name)
+spat_download(files, path="data", url="https://biogeo.ucdavis.edu/data/rspatial/")
 }
 
 \arguments{
@@ -34,8 +32,8 @@ A data set. Often a Spatial* object or a data.frame
 
 
 \examples{
-auctb <- sp_data("auctb")
-crime <- sp_data("crime")
+auctb <- spat_data("auctb")
+crime <- spat_data("crime")
 }
 
 
